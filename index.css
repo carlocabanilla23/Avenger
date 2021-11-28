@@ -1,0 +1,823 @@
+*{padding:0;margin: 0;}
+
+body{
+    background-color: #141414;
+   
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/***1. HEADER SECTION ************************************************************************/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+header{
+    background-color: #292929;
+    
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0px;
+    padding-top: .4em;
+    color: rgba(255,255,255,1);
+  
+}
+header h2{
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0px;
+      color: rgba(240,240,240,1);
+}
+header nav ul{
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0;
+        margin-top: .4em;
+     
+    
+}
+header nav ul li{
+    
+    display: inline-block;
+    padding: .3em;
+    }
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,.72);
+	  font-size: 1.2em;
+}
+header nav ul li a:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+	  font-size: 1.2em;
+    border-bottom: 2px solid yellow;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/***2. CONTENT SECTION ************************************************************************/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/** 2A. Main Page - Front page ****/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.content #front-page h2{
+    font-size: 3em;
+
+     color: rgba(255,255,255,.72);
+     
+}
+.content #front-page {
+    padding-bottom: 4em;
+    padding-top: .5%;
+    padding-right: 1%;
+    padding-left: 1%;
+     background-color: #1f1f1f;
+     width: 98%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.content #front-page img,source{
+ 
+  width: 100%;  
+  height: 35em;
+  background-color: #1f1f1f;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7em;
+  min-height: 10em;
+}
+.content #front-page p {
+    color: rgba(255,255,255,.72);
+    padding: .5em;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 2em;
+    background-color: #292929;
+}
+.content #front-page a{
+    
+    color: rgba(255,255,255,.72);
+}
+
+.content #link1 {
+    min-height: 10em;
+    width: 50%;
+    background: #272727;
+    float: left;
+    margin-bottom: .5em;
+    
+}
+.content  #link1  ul{
+    padding: .2em;
+}
+.content   #link1  ul li {
+    background: #141414;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    font-size: 3em;
+    text-align: center;
+    padding: .3em;
+    list-style-type: none;
+}
+.content  #link1 a{
+    color: rgba(255,255,255,.72);
+    text-decoration: none;
+}
+.content #link1 a:hover{
+    color: rgba(255,255,255,1);
+    transition:  ease-in-out .6s;
+    
+}
+.content #link2{
+     background: #303030;
+    width: 50%;
+    float: left;
+     margin-bottom: .5em;
+}
+.content #link2  ul {
+    margin-top: .4em;
+ 
+   
+}
+.content #link2  ul li{
+  
+   display: inline-block;
+   width: 49%;
+   margin-left: .5%;
+   margin-right: auto;
+
+   
+}
+.content #link2 ul li img{
+     background: #272727;
+     padding: .3em;
+    height: 5.55em;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.content #link2 ul li:hover img{
+     background: #ffffff;
+     transition: linear .8s;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/** 2A. Main Page - movie page ****/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.content{
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100%;
+    width: 98%;
+    color: rgba(255,255,255,.72);
+}
+.container{
+  
+    width: 24.8%;
+    float: left;
+    margin-left: .1%;
+    margin-right: .1%;
+    color:white;
+}
+.container img{
+    width: 95%;
+    height: 25em;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    opacity: .5;
+}
+.container img:hover{
+    opacity: 1;
+}
+.container a{
+    text-decoration: none;
+    color: rgba(255,255,255,.82);
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+}
+.container h3{
+    padding: 0;
+    margin: 0;
+    font-size: 1.7em;
+    text-align: center;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/** 2b. Movie Page - movie Section page ****/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.content #left-content{
+    margin-left: 5%;
+    width: 50%;
+    float: left; 
+    background: rgba(255,255,255,.1);;
+    min-height: 36em;
+    
+}
+.content #left-content img{
+    width: 100%;
+}
+.content #left-content h2{
+    color: #ffffff;
+    padding: 0px;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-size: 2em;
+}
+.content #right-content{
+    color: rgba(255,255,255,1);
+    font-family: Georgia, serif;
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 7%;
+    margin-right: 5%;
+    padding-top: 2em;
+    width: 30%;
+    float: left; 
+    background: rgba(255,255,255,.2);
+    min-height: 34em;
+    
+}
+.content #right-content h2{
+    font-size: 1.5em;
+}
+.content #video-content{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    clear: both;
+    background: rgba(255,255,255,.2);
+      
+}
+.content #video-content h3{
+    color: white;
+    font-size: 2em;
+    padding: .5em;
+    background: #292929;
+}
+.content #video-content iframe{
+    margin-left: 10%;
+    width: 80%;
+    height: 34em;
+    border: .5em solid black;
+}
+.content #review h2{
+    background-color: #272727;
+     font-size: 2em;
+}
+.content #review{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+    float: left;}
+.content #review #review-form fieldset{
+    padding-top: 1em;
+    border: none;
+    
+     
+}
+.content #review #review-form {
+     font-size: 1.8em;
+    background-color: #1f1f1f;
+   background: #323232;
+    width: 50%;
+    float: left;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    }
+    
+.content #review #review-form fieldset input,textarea,label{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.3em;
+
+    
+
+    
+    
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/** 2B. Main Page - about page ****/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.content #about,#mission{
+    text-align: center;
+    background-color: #1f1f1f;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    font-size: 1.7em;
+    min-height: 10em;
+    
+}
+/** 2C. Main Page - Contact page ****/
+.content #contact-form {
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    margin-top: 2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    padding-left: 1.5em;
+    
+}
+.content #contact-form fieldset{
+    border: none;
+}
+.content #contact-form fieldset input,textarea,label{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.3em;
+    
+}
+
+.content #location{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+}
+.content #location p,iframe{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.3em;
+}
+.content #table{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+    
+}
+.content #table table{
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.3em;
+    border: none;
+    
+}
+.content #table table td{
+    padding: .3em;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/*Footer Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+footer{
+    clear: both;
+    background-color: #262626;
+    color: rgba(255,255,255,.72);
+    position: relative;
+        left: 0px;
+        bottom: 0px;
+    padding: .4em;
+    text-align: right;
+    
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/** THIS is my SEtting for the responsiveness of the site*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen
+and (max-width:1350px){
+ 
+.content #right-content{
+    color: rgba(255,255,255,1);
+    font-family: Georgia, serif;
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 7%;
+    margin-right: 5%;
+    padding-top: 2em;
+    width: 30%;
+    float: left; 
+    background: rgba(255,255,255,.2);
+    min-height: 25em;
+    
+}.content #left-content{
+    margin-left: 5%;
+    width: 50%;
+    float: left; 
+    background: rgba(255,255,255,.1);;
+    min-height: 27em;
+    
+}
+
+/* Smartphones ----------- ////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen 
+and (max-width : 520px) {
+    
+    
+    header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px;   
+    }
+    
+    header h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px;
+    }
+    header nav ul{
+        padding: 0;
+        margin: 0;
+       list-style-type: none;
+    }
+    header nav ul li{
+    display: block;
+    background: black;
+    padding: .3em;
+    text-align: center;
+    margin-top: .2em;
+    font-size: 1.6em;
+    }
+    
+    
+.content #link2{
+     background: #303030;
+    width: 95%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: auto;
+     margin-bottom: .5em;
+}
+.content #link2 ul li {
+    display: inline-block;
+    width: 47%;
+    margin-left: .5%;
+    margin-right: auto;
+}
+.content #link1 {
+    min-height: 10em;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    background: #272727;
+    float: left;
+    margin-bottom: .5em;
+    
+}
+
+.content #review #review-form {
+     font-size: 1.8em;
+    background-color: #1f1f1f;
+   background: #323232;
+     width: 95%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    float: left;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    }
+
+.content #review #review-form fieldset input, textarea, label {
+    width: 80%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: .7em;
+}
+.content #review h2 {
+    background-color: #272727;
+    font-size: 1.5em;
+}
+  /* main content boxes */
+    .content{
+        padding-left: 1%;
+        padding-right: 1%;
+        color: rgba(255,255,255,.72);
+    }
+    .container{
+        color:white;
+        width: 86%;
+        float: left;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 3em;
+    }
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/ 
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/    
+    .content #contact-form {
+    font-size: 1em;
+    padding-top: 1.3em;
+    margin-top: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    
+    }
+    .content #contact-form fieldset input,textarea,label{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.2em;
+    
+    }
+    
+    
+    .content #location{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+    }
+    .content h2{
+        font-size: .8em;
+    }
+    .content #location p,iframe{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: .7em;
+    }
+    .content #table{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+    
+    }
+    .content #table table{
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 4%;
+    padding: 0.05em;
+    font-size: .5em;
+    border: none;
+    
+}
+.content #table table td{
+    padding: .3em;
+}
+
+
+/*///////////RESPONSIVENESS OF THE Movie PAGE//////////////////////*/
+/*///////////RESPONSIVENESS OF THE Movie PAGE//////////////////////*/ 
+/*///////////RESPONSIVENESS OF THE Movie PAGE//////////////////////*/
+
+.content #left-content{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+    float: left; 
+    background: rgba(255,255,255,.1);;
+    min-height: 15em;
+    
+}
+
+.content #right-content{
+    color: rgba(255,255,255,1);
+    font-family: Georgia, serif;
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 7%;
+    margin-left:  5%;
+    margin-right: auto;
+    padding-top: 2em;
+    width: 80%;
+    float: left;
+    background: rgba(255,255,255,.2);
+    min-height: 15em;
+}
+.content #video-content iframe{
+    margin-left: 4%;
+    margin-right: auto;
+    width: 90%;
+    height: 34em;
+    border: .5em solid black;
+}
+
+}
+
+/**For Tablet */
+
+@media only screen 
+and (max-width : 800px)
+and (min-width: 520px){
+   *{
+    padding: 0;
+    margin: 0;
+    
+   }
+    header h1{
+    font-size: 3.5em;
+    text-align: center;
+    margin: 0px;   
+    }
+    
+    header h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px;
+    }
+    header nav ul{
+        padding: 0;
+        margin: 0;
+       list-style-type: none;
+    }
+    header nav ul li{
+    display: block;
+    background: black;
+    padding: .3em;
+    text-align: center;
+    margin-top: .2em;   
+    font-size: 1.8em;
+    }
+   
+      
+.content #review #review-form {
+     font-size: 1.8em;
+    background-color: #1f1f1f;
+   background: #323232;
+     width: 95%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    float: left;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    }
+.content #review-form fieldset input,textarea,label{
+    width: 95%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: .7em;
+    
+    } 
+.content #link2{
+     background: #303030;
+    width: 95%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: auto;
+     margin-bottom: .5em;
+}
+
+
+
+.content #link1 {
+    min-height: 10em;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    background: #272727;
+    float: left;
+    margin-bottom: .5em;
+    
+}
+     /* main content boxes */
+    .content{
+         color: rgba(255,255,255,.72);
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .container{
+        color:white;
+        width: 44%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1em;
+    }
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/ 
+/*///////////RESPONSIVENESS OF THE CONTACT PAGE//////////////////////*/    
+    .content #contact-form  {
+    font-size: 1em;
+    padding-top: 1.3em;
+    margin-top: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    
+    }
+    .content #contact-form fieldset input,textarea,label{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.2em;
+    
+    }
+    .content h2{
+        font-size: .8em;
+    }
+    
+    .content #location{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+    }
+    .content #location p,iframe{
+    width: 70%;
+    margin-left: 4%;
+    padding: 0.1em;
+    font-size: 1.2em;
+    }
+    .content #table{
+    font-size: 1.8em;
+    padding-top: 1.3em;
+    padding-left: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #1f1f1f;
+    padding-bottom: 2em;
+    
+    }
+    .content #table table{
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 4%;
+    padding: 0.05em;
+    font-size: .5em;
+    border: none;
+    
+    }
+    .content #table table td{
+    padding: .3em;
+    }
+    
+    
+.content #left-content{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+    float: left; 
+    background: rgba(255,255,255,.1);;
+    min-height: 15em;
+    
+}
+
+.content #right-content{
+    color: rgba(255,255,255,1);
+    font-family: Georgia, serif;
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 7%;
+    margin-left:  5%;
+    margin-right: auto;
+    padding-top: 2em;
+    width: 80%;
+    float: left;
+    background: rgba(255,255,255,.2);
+    min-height: 15em;
+}
+.content #video-content iframe{
+    margin-left: 4%;
+    margin-right: auto;
+    width: 90%;
+    height: 34em;
+    border: .5em solid black;
+}
+
+
+}
+    
+}

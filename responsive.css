@@ -1,0 +1,104 @@
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 520px) {
+    
+    
+    header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px;   
+    }
+    
+    header h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px;
+    }
+    header nav ul{
+        padding: 0;
+        margin: 0;
+       list-style-type: none;
+    }
+    header nav ul li{
+    display: block;
+    background: black;
+    padding: .3em;
+    text-align: center;
+    margin-top: .4em;`
+    font-size: 2.3em;
+    
+  
+}
+    header nav ul li a {
+        color: red;
+        font-size: 2em;
+    }
+    /* main content boxes */
+    .content{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .container{
+        background: lightblue;
+        width: 86%;
+        float: left;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 3em;
+    }
+
+}
+
+@media only screen 
+and (max-width : 800px)
+and (min-width: 520px){
+   *{
+    padding: 0;
+    margin: 0;
+    
+   }
+    header h1{
+    font-size: 3.5em;
+    text-align: center;
+    margin: 0px;   
+    }
+    
+    header h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px;
+    }
+    header nav ul{
+        padding: 0;
+        margin: 0;
+       list-style-type: none;
+    }
+    header nav ul li{
+    display: block;
+    background: black;
+    padding: .3em;
+    text-align: center;
+    margin-top: .4em;`
+    font-size: 2em;
+}
+    header nav ul li a{
+         font-size: 1.7em;
+    }
+    
+     /* main content boxes */
+    .content{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .container{
+        background: lightblue;
+        width: 44%;
+       
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1em;
+    }
+
+}
